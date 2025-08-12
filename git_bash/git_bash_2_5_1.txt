@@ -1,0 +1,5 @@
+openssl genrsa -out (A) 2048
+
+openssl req -new -key (A) -out (B)  -subj "//C=JP\\ST=Osaka\\L=Osaka-shi\\O=Sample\\OU=Dev1\\CN=localhost"
+
+openssl x509 -req -in (B) -out (C) -signkey (A) -days 3650 -sha256

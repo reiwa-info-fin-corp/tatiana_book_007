@@ -1,0 +1,13 @@
+〇〇〇@〇〇〇-PC MINGW64 /c/tatiana_book_007/answer/2-5-1/pem
+$ openssl genrsa -out server-key.pem 2048
+
+〇〇〇@〇〇〇-PC MINGW64 /c/tatiana_book_007/answer/2-5-1/pem
+$ openssl req -new -key server-key.pem -out server-csr.pem -subj "//C=JP\\ST=Osaka\\L=Osaka-shi\\O=Sample\\OU=Dev1\\CN=localhost"
+
+〇〇〇@〇〇〇-PC MINGW64 /c/tatiana_book_007/answer/2-5-1/pem
+$ openssl x509 -req -in server-csr.pem -out server-crt.pem -signkey server-key.pem -days 3650 -sha256
+Certificate request self-signature ok
+subject=C=JP, ST=Osaka, L=Osaka-shi, O=Sample, OU=Dev1, CN=localhost
+
+〇〇〇@〇〇〇-PC MINGW64 /c/tatiana_book_007/answer/2-5-1/pem
+$

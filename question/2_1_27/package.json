@@ -1,0 +1,14 @@
+{
+  "name": "@reiwa_info_fin_corp/tatiana_book_007_question_2_1_27",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "license": "UNLICENSED",
+  "description": "Confidential project - Non-disclosure",
+  "private": true,
+  "dependencies": {
+    "luxon": "^3.4.4"
+  }
+}

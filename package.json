@@ -1,0 +1,14 @@
+{
+  "name": "tatiana_book_007",
+  "version": "1.0.0",
+  "description": "本のタイトル:Node.jsとネットワーク 練習問題166問(タチアナちゃんとstudy) 2025年 初版の付録のcode",
+  "keywords": [
+    "JavaScript"
+  ],
+  "author": {
+    "name": "reiwa_info_fin_corp",
+    "url": "https://www.youtube.com/channel/UCsvAMIIvacm-NgYJGhrJ4_g"
+  },
+  "license": "UNLICENSED",
+  "private": true
+}

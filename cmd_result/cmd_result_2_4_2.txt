@@ -1,0 +1,20 @@
+C:\tatiana_book_007\answer\2-4-2>npm start
+
+> @reiwa_info_fin_corp/2-1-22@1.0.0 start
+> node index.js
+
+[JST] 2024-07-06(Sat) 07:01:04.425 Server running at http://127.0.0.1:3000/
+
+Request URL:http://127.0.0.1:3000/
+HTTP method:GET
+Client IP:127.0.0.1
+Client Port:6983
+Headers:{"host":"127.0.0.1:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8","accept-language":"ja,en-US;q=0.7,en;q=0.3","accept-encoding":"gzip, deflate, br, zstd","connection":"keep-alive","upgrade-insecure-requests":"1","sec-fetch-dest":"document","sec-fetch-mode":"navigate","sec-fetch-site":"none","sec-fetch-user":"?1","priority":"u=1"}
+[JST] 2024-07-06(Sat) 07:01:22.416
+
+Request URL:http://127.0.0.1:3000/favicon.ico
+HTTP method:GET
+Client IP:127.0.0.1
+Client Port:6983
+Headers:{"host":"127.0.0.1:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0","accept":"image/avif,image/webp,*/*","accept-language":"ja,en-US;q=0.7,en;q=0.3","accept-encoding":"gzip, deflate, br, zstd","connection":"keep-alive","referer":"http://127.0.0.1:3000/","sec-fetch-dest":"image","sec-fetch-mode":"no-cors","sec-fetch-site":"same-origin","priority":"u=6"}
+[JST] 2024-07-06(Sat) 07:01:22.483
