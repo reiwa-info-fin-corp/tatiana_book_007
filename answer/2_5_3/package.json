@@ -9,7 +9,7 @@
   "description": "Confidential project - Non-disclosure",
   "private": true,
   "dependencies": {
-    "express": "^4.19.2",
-    "luxon": "^3.4.4"
+    "express": "^5.1.0",
+    "luxon": "^3.7.2"
   }
 }

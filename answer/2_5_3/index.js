@@ -114,11 +114,15 @@ const https_server = (function() {
 
   const server = https.createServer(options, app);
 
-  // GETリクエストに対する処理
-  app.get('*', processRequest);
+  // GETリクエストに対する処理 Express 4.x.x
+  //app.get('*', processRequest);
+  // 正規表現リテラルを使用する方法 Express 5.x.x
+  app.get(/.*/, processRequest);
 
-  // POSTリクエストに対する処理
-  app.post('*', processRequest);
+  // POSTリクエストに対する処理 Express 4.x.x
+  //app.post('*', processRequest);
+  // 正規表現リテラルを使用する方法 Express 5.x.x
+  app.post(/.*/, processRequest);
 
   const handleRequest = function() {
     console.log(`${getLocalTime('ja-JP', 'Asia/Tokyo')} Server running at https://${hostname}:${port}/\n`);
